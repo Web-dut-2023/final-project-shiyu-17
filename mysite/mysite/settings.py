@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "polls.apps.PollsConfig",# 为应用程序 polls 添加配置
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
